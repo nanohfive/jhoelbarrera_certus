@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.tarjeta {
+    background-color: #3b3b3b;
+    color: #fff;
+    border-radius: 12px;
+    width: 350px;
+    height: 400px;
+    padding: 16px;
+    text-align: center;
+}
+.tarjeta h1 {
+    font-size: 3rem;
+}
+.tarjeta p {
+    margin: 32px 0;
+}
+.tarjeta a {
+    margin-top: 32px;
+    background-color: #151515;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
