@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Problema 05</title>
+    </head>
+    <body>
+        <h1>
+            Solicita mediante prompt() el precio de un producto. La tienda
+            aplica un descuento del 15%. Calcula y muestra: • El monto del
+            descuento. • El precio final que deberá pagar el cliente.
+        </h1>
+        <script>
+            let precio = Number(prompt("Introduce el precio del producto"));
+            let descuento = precio * 0.15;
+            let precioFinal = precio - descuento;
+            document.write(`<p>Descuento: S/. ${descuento}</p>`);
+            document.write(`<p>Precio final: S/. ${precioFinal}</p>`);
+        </script>
+    </body>
+</html>

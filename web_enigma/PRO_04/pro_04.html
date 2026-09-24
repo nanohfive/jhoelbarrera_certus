@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Problema 04</title>
+    </head>
+    <body>
+        <h1>
+            Solicita mediante prompt() las tres notas obtenidas por un
+            estudiante. Calcula y muestra su promedio final.
+        </h1>
+        <script>
+            let nota1 = Number(prompt("Introduce la nota 1"));
+            let nota2 = Number(prompt("Introduce la nota 2"));
+            let nota3 = Number(prompt("Introduce la nota 3"));
+            let sumaNotas = nota1 + nota2 + nota3;
+            document.write(`<p>Nota 1: ${nota1}</p>`);
+            document.write(`<p>Nota 2: ${nota2}</p>`);
+            document.write(`<p>Nota 3: ${nota3}</p>`);
+            document.write(`<p>Promedio: ${sumaNotas / 3}</p>`);
+        </script>
+    </body>
+</html>

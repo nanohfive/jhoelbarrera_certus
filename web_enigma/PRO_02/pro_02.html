@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Problema 02</title>
+    </head>
+    <body>
+        <h1>
+            Solicita mediante prompt() el precio de un cuaderno, la cantidad de
+            cuadernos, el precio de un lapicero y la cantidad de lapiceros.
+            Calcula y muestra el total de la compra.
+        </h1>
+        <script>
+            let precioCuaderno = prompt(
+                "Introduce el precio del cuaderno por unidad",
+            );
+            let cantidadCuadernos = prompt(
+                "Introduce la cantidad total de cuadernos",
+            );
+            let precioLapicero = prompt(
+                "Introduce el precio del lapicero por unidad",
+            );
+            let cantidadLapiceros = prompt(
+                "Introduce la cantidad total de lapiceros",
+            );
+            document.write(
+                `<p>Monto total: S/. ${precioCuaderno * cantidadCuadernos + precioLapicero * cantidadLapiceros}</p>`,
+            );
+        </script>
+    </body>
+</html>

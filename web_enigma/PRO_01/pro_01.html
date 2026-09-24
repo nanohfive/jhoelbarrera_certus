@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Problema 01</title>
+    </head>
+    <body>
+        <h1>
+            Solicita mediante prompt() el precio de una gaseosa y la cantidad de
+            gaseosas que desea comprar. Calcula y muestra el monto total a
+            pagar.
+        </h1>
+        <script>
+            let gaseosaPrecio = prompt(
+                "Introduce el precio de la gaseosa por unidad",
+            );
+            let gaseosaCantidad = prompt(
+                "Introduce la cantidad total de gaseosas",
+            );
+            document.write(
+                `<p>Monto total: S/. ${gaseosaCantidad * gaseosaPrecio}</p>`,
+            );
+        </script>
+    </body>
+</html>

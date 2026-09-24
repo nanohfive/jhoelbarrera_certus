@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Problema 09</title>
+    </head>
+    <body>
+        <h1>
+            Solicita mediante prompt() un monto en soles y el tipo de cambio del
+            dólar. Calcula y muestra cuánto equivale ese monto en dólares.
+        </h1>
+        <script>
+            let montoSoles = Number(
+                prompt("Introduce el monto total en soles"),
+            );
+            let factorConversion = Number(
+                prompt("Introduce el tipo de cambio"),
+            );
+            document.write(`<p>Monto en soles: S/. ${montoSoles}</p>`);
+            document.write(`<p>Tipo de cambio: ${factorConversion}</p>`);
+            document.write(
+                `<p>Tipo de cambio: $/. ${montoSoles / factorConversion}</p>`,
+            );
+        </script>
+    </body>
+</html>

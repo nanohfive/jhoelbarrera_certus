@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Problema 07</title>
+    </head>
+    <body>
+        <h1>
+            Solicita mediante prompt() el sueldo mensual de un trabajador.
+            Calcula el descuento correspondiente al 13% y muestra: • Sueldo
+            bruto. • Monto descontado. • Sueldo final.
+        </h1>
+        <script>
+            let sueldo = Number(prompt("Introduce el sueldo del trabajador"));
+            let descuento = sueldo * 0.13;
+            document.write(`<p>Sueldo bruto: S/. ${sueldo}</p>`);
+            document.write(`<p>Monto descontado: S/. ${descuento}</p>`);
+            document.write(`<p>Sueldo dinal: S/. ${sueldo - descuento}</p>`);
+        </script>
+    </body>
+</html>

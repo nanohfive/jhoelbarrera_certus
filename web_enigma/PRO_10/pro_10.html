@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Problema 10</title>
+    </head>
+    <body>
+        <h1>
+            Una persona realizará un viaje de varios días. Solicita mediante
+            prompt(): • Cantidad de días del viaje. • Gasto diario en
+            alimentación. • Gasto diario en transporte. • Gasto diario en
+            alojamiento. Calcula y muestra: • Gasto total en alimentación. •
+            Gasto total en transporte. • Gasto total en alojamiento. •
+            Presupuesto total del viaje.
+        </h1>
+        <script>
+            let cantidadDias = Number(
+                prompt("Introduce la cantidad de días de viaje"),
+            );
+            let gastoAlimentos = Number(
+                prompt("Introduce el costo diario para los alimentos"),
+            );
+            let gastoTransporte = Number(
+                prompt("Introduce el costo diario para el transporte"),
+            );
+            let gastoAlojamiento = Number(
+                prompt("Introduce el costo diario para el alojamiento"),
+            );
+
+            document.write(
+                `<p>Gasto total para alimentos: S/. ${gastoAlimentos * cantidadDias}</p>`,
+            );
+            document.write(
+                `<p>Gasto total para transporte: S/. ${gastoTransporte * cantidadDias}</p>`,
+            );
+            document.write(
+                `<p>Gasto total para alojamiento: S/. ${gastoAlojamiento * cantidadDias}</p>`,
+            );
+            document.write(
+                `<p>Gasto total del viaje: S/. ${gastoAlimentos * cantidadDias + gastoTransporte * cantidadDias + gastoAlojamiento * cantidadDias}</p>`,
+            );
+        </script>
+    </body>
+</html>

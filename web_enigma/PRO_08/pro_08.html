@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Problema 08</title>
+    </head>
+    <body>
+        <h1>
+            Un automóvil recorre aproximadamente 40 kilómetros por cada galón de
+            combustible. Solicita mediante prompt() la cantidad de kilómetros
+            que desea recorrer el usuario. Calcula cuántos galones de
+            combustible necesitará aproximadamente.
+        </h1>
+        <script>
+            let cantidadKm = Number(
+                prompt(
+                    "Introduce la cantidad de Km que desea recorrer el usuario",
+                ),
+            );
+            let cantidadGalones = cantidadKm / 40;
+            document.write(
+                `Galones que necesita aproximadamente: ${cantidadGalones}`,
+            );
+        </script>
+    </body>
+</html>

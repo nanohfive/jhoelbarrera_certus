@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Problema 06</title>
+    </head>
+    <body>
+        <h1>
+            Solicita mediante prompt() el monto total de una cuenta y la
+            cantidad de personas que participaron en la cena. Calcula cuánto
+            debe pagar cada persona si la cuenta se divide en partes iguales.
+        </h1>
+        <script>
+            let cuentaFinal = Number(
+                prompt("Introduce el monto total de la cuenta"),
+            );
+            let cantidadPersonas = Number(
+                prompt("Introduce la cantidad de personas"),
+            );
+            document.write(
+                `<p>Cada persona debe pagar: S/. ${cuentaFinal / cantidadPersonas}</p>`,
+            );
+        </script>
+    </body>
+</html>
